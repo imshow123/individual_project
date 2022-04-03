@@ -50,7 +50,7 @@ nav{
 .logo div{
     /* border: 1px solid red; */
     width: 200px;
-    padding: 20px 0 0 0;
+    padding: 25px 0 0 0;
 }
 .logo img{
     /* border: 1px solid red; */
@@ -118,9 +118,9 @@ nav li:hover>img{
 /*矚目新品*/
 .new{
     /* border: 1px solid red; */
-    /* padding-top: 100px;
+    padding-top: 100px;
     display: flex;
-    align-items: center; */
+    align-items: center;
 }
 h2{
     font-size: 40px;
@@ -131,51 +131,134 @@ h2{
     width: 180px;
     border-radius: 68% 32% 68% 32% / 0% 100% 0% 100%;
 }
-.new section{
-    border: 1px solid red;
+.choc-basque{
+    /* border: 1px solid red; */
     display: flex;
+    padding-top: 50px;
+    padding-right: 30px;
 }
 .choc-basque div{
-    width: 50%;
-}
-
-.new section div{
     /* border: 1px solid red; */
-    width: 50%;
-    display: flex;
-    justify-content: center; 
 }
-.new-name h3{
+.choc-basque video{
+    width: 100%;
+}
+.choc-basque .pics{
+    border: 1px solid red;
+    /* padding-left: 20px; */
+    width: 70%;
+}
+.choc-basque .pics img{
+    width: 70%;
+}
+.choc-basque .text{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+h3{
     /* border: 1px solid red; */
     width: 50%;
     font-size: 30px;
     justify-content: center;
     text-align: center;
 }
-.new-content p{
+.choc-basque p{
     /* border: 1px solid red; */
-    width: 50%;
     font-size: 24px;
     text-align: center;
-}
-.new-name{
-    align-items: center;
     padding-top: 50px;
-    /* justify-content: center; */
+    text-align: left;
 }
-.new-content{
-    flex-direction: row-reverse;
+.choc-basque img{
+    width: 60%;
+}
+
+/*人氣熱賣*/
+.hot{
+    border: 1px solid red;
+    padding-top: 100px;
+    display: flex;
     align-items: center;
-    padding-top: -50px;
-    /* justify-content: center; */
 }
-.new-name img{
-    border-radius: 0% 20% 0% 20% / 0% 20% 0% 20%;
-    width: 60%;
-    box-shadow: 5px 5px 15px 1px rgb(78, 77, 77);
+.hot .text{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
 }
-.new-content img{
-    border-radius: 0% 26% 0% 26% / 0% 20% 0% 20%;
-    width: 60%;
-    box-shadow: 5px 5px 15px 1px rgb(78, 77, 77);
+.hot p{
+    border: 1px solid red;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+}
+.blueberry{
+    border: 1px solid red;
+    padding-top: 50px;
+    display: flex;
+    justify-content: start;
+    padding-left: 100px;
+}
+.blueberry img{
+    width: 80%;
+}
+
+
+
+
+
+
+
+.strawberry{
+    border: 1px solid red;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+}
+.strawberry .pic{
+    border: 1px solid red;
+    width: 40%;
+}
+.strawberry img{
+    width: 70%;
+}
+
+
+
+
+
+.matcha{
+    border: 1px solid red;
+    padding-top: 50px;
+    display: flex;
+    justify-content: start;
+    padding-left: 100px;
+}
+.matcha .pic{
+    border: 1px solid red;
+    width: 40%;
+}
+.matcha img{
+    width: 80%;
+}
+
+/* 好康活動 */
+.sale{
+    padding-top: 100px;
+}
+.sale .pic{
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+}
+.sale img{
+    width: 100%;
+    border-radius: 50px;
 }
