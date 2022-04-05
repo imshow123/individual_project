@@ -68,6 +68,7 @@ nav ul{
     display: flex;
     align-items: center;
     padding-left: 50px;
+    padding-top: 30px;
 }
 nav li{
     /* border: 1px solid red; */
@@ -102,124 +103,72 @@ nav li:hover>img{
     width: 25%;
 }
 
-/*產品介紹*/
-.content{
-    padding-top: 250px;
+
+.contentgroup{
+    padding-top: 200px;
+    padding-bottom: 50px;
 }
-h2{
-    font-size: 40px;
-    margin: auto;
-    text-align: center;
-    background-color: rgba(255, 163, 24, 1);
-    color: rgb(255, 255, 255);
-    width: 180px;
-    border-radius: 68% 32% 68% 32% / 0% 100% 0% 100%;
-}
-.h2{
-    /* border: 1px solid red; */
+.wrap{
     display: flex;
+}
+.card{
+    /* border: 1px solid red; */
+    width: 50%;
+    padding-left: 150px;
+}
+.text{
+    /* border: 1px solid red; */
+    width: 50%;
+    color: rgb(165, 163, 163);
+}
+.mainpic img{
+    width: 90%;
+}
+.pics img{
+    width: 60%;
+}
+.pics{
+    display: flex;
+    width: 50%;
 }
 h3{
-    /* border: 1px solid red; */
-    font-size: 28px;
-    color: white;
-    /* line-height: 30px; */
-    /* padding-top: 20px; */
-    line-height: 70px;
-    
+    font-size: 30px;
 }
-.h3{
-    /* border: 1px solid red; */
-    clip-path: polygon(0 20%, 55% 20%, 51% 3%, 91% 51%, 50% 95%, 55% 78%, 0 78%);
-    background-color: rgba(253, 213, 154, 1);
-    margin-top: 50px;
-    margin-left: -7px;
-    width: 250px;
-    height: 70px;
-    display: flex;
-}
-.content ul{
-    /* border: 1px solid red; */
-    display: flex;
-    margin: auto;
-    padding-left: 50px;
-}
-.basque{
-    /* border: 1px solid red; */
-    padding-top: 30px;
-}
-.product ul{
-    display: flex;
+p{
+    font-size: 24px;
     padding-top: 50px;
-    /* flex-wrap: wrap; */
-}
-.colum li{
-    background-color: rgba(253, 213, 154, 1);
-    width: 250px;
-    margin-right: 30px;
-    border-radius: 44% 42% 42% 42% / 48% 46% 40% 39% ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 300px;
-}
-.colum li:hover{
-    border-radius: 20% 18% 19% 16% / 13% 16% 16% 16% ;
-    transition: 1s;
+    line-height: 40px;
 }
 .item{
-    /* background-color: rgb(255, 232, 204); */
-    width: 150px;
+    padding-top: 100px;
     display: flex;
-    /* margin: auto; */
     justify-content: space-between;
 }
-h4{
-    /* background-color: rgb(255, 232, 204); */
-    padding-top: 10px;
-    padding-bottom: 20px;
-    width: 200px; 
-    /* margin: auto; */
-    text-align: center;
-    font-size: 24px;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-.colum img{
-    /* border: 1px solid red; */
-    width: 60%;
-    height: 200px;
-    border-radius: 30px;
-}
 .price{
-    font-size: 18px;
-    color: white;
+    font-size: 22px;
 }
 .buy{
     background-color: rgba(255, 163, 24, 1);
     color: white;
     border-radius: 30px;
-    /* width: 45px; */
     text-align: center;
-    padding: 5px
+    padding: 5px;
+    font-size: 20px;
 }
 .buy:hover{
     background-color: rgb(249, 194, 100);
     /* box-shadow: 1px 1px 2px 2px rgb(224, 220, 220); */
     cursor: pointer;
 }
-.colum img:hover{
-    transform: scale(1.1);
-    transition: 1s;
-}
-.cheesecake{
-    padding-top: 30px;
-}
-.box{
-    padding-top: 30px;
-}
 
-/*頁尾*/
+
+
+
+
+
+
+
+
 footer{
     padding: 25px;
     background-color: rgba(253, 213, 154, 1)
